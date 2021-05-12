@@ -1,0 +1,589 @@
+/* Universal Styles */
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+  url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfw72nU6AFw.woff2)
+  format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+  U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+  U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+ font-style: normal;
+ font-weight: 500;
+ font-display: swap;
+ src: local('Ubuntu Medium'), local('Ubuntu-Medium'),
+ url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCjC3jsGyNPYZvgw.woff2)
+ format('woff2');
+ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+ U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+ U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+  url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjsGyNPYZvgw.woff2)
+  format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+  U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+  U+FEFF, U+FFFD;
+}
+
+html body {
+
+}
+
+/* Header */
+
+header {
+  height: 64px;
+  display: flex;
+  background-color: white;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+}
+
+.colmar-logo {
+  padding-left: 24px;
+  display: inline-flex;
+}
+
+.colmar-logo img {
+
+}
+
+.colmar-logo h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  height: 32px;
+  margin: 0 auto;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  opacity: 0.8;
+  font-size: 1.5em;
+}
+
+.colmar-logo h3 strong {
+  font-weight: bold;
+  opacity: 0.95;
+}
+
+header nav {
+  padding-right: 24px;
+  width: 100%;
+}
+
+header nav ul {
+  float: right;
+}
+
+header nav li {
+  display: inline;
+  padding-right: 16px;
+  width: 100%;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Ubuntu";
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+/* Main Styles */
+
+main {
+  margin-top: 1%;
+  background-color: hsla(132, 0%, 95%, 1);
+}
+
+/* Sections */
+/* ------- */
+
+/* Start Learning Banner */
+
+.learning {
+  background-color: lightgray;
+  display: inline-flex;
+  font-family: "Ubuntu";
+}
+
+.learning .banner-img {
+  padding: 32px 24px;
+  max-width: 60%;
+  height: auto;
+}
+
+.learning-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 85%;
+}
+
+.learning-text h1 {
+  width: 85%;
+  font-size: 3em;
+  opacity: 0.65;
+  margin: 0 auto;
+}
+
+.learning h5 {
+  width: 85%;
+  font-size: 1.5em;
+  opacity: 0.5;
+  font-weight: 500;
+}
+
+.learning p {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 0.65;
+  font-weight: 400;
+}
+
+.start-button {
+  border: 1px solid hsla(162, 1%, 31%, 1);
+  background-color: hsla(162, 1%, 31%, 1);
+  width: 80%;
+  padding: 8px 0;
+  margin-right: 5%;
+}
+
+/* Practice Main Panel */
+
+.practice {
+  font-family: "Ubuntu";
+  display: flex;
+  flex-direction: row;
+  background-color: hsla(132, 0%, 95%, 1);
+}
+
+.practice-quote-text {
+  width: 80%;
+}
+
+.practice img {
+  padding: 32px 24px;
+  width: 90%;
+}
+
+.man-reading {
+
+}
+
+.practice-quote {
+  padding-left: 24px;
+  width: 70%;
+}
+
+.practice-quote h2 {
+  padding-bottom: 24px;
+  font-size: 2.5em;
+  margin: 0;
+  opacity: 0.7;
+}
+
+.practice-quote p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.quote-credit {
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+.quote-credit p {
+
+}
+
+/* Top Side Panels */
+
+/* Main Style */
+.top-side-panels {
+  border-left: 1px solid lightgray;
+  width: 40%;
+  background-color: hsla(132, 0%, 95%, 1);
+}
+
+.top-side-panels .p-text {
+  padding-left: 10%;
+}
+
+.top-side-panels h3 {
+  padding-bottom: 8px;
+  font-size: 1.5em;
+  font-weight: 400;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.top-side-panels p {
+  padding-bottom: 8px;
+}
+
+.top-side-panels a {
+  text-decoration: none;
+}
+
+.top-side-panels .p-img {
+
+}
+
+.top-side-panels img {
+
+}
+
+/* Orentation */
+
+.orientation {
+  display: flex;
+  border: 1px solid lightgray;
+  margin-bottom: 1%;
+  height: 27%;
+  align-items: center;
+}
+
+.orientation-img  {
+  width: 35%;
+  height: 50;
+}
+
+.orientation img {
+  width: 100%;
+  padding: 16px 16px;
+}
+
+.orientation-text {
+  width: 65%;
+}
+
+/* Campus */
+
+.campus {
+  display: flex;
+  border: 1px solid lightgray;
+  margin-bottom: 1%;
+  height: 27%;
+  align-items: center;
+}
+
+.campus-img {
+  width: 35%;
+  height: auto;
+}
+
+.campus img {
+  width: 100%;
+  padding-left: 16px 16px;
+}
+
+.campus-text {
+  width: 65%;
+}
+
+/* Lecture */
+
+.lecture {
+  display: flex;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  height: 27%;
+  align-items: center;
+}
+
+.lecture-img {
+  width: 35%;
+  height: auto;
+}
+
+.lecture img {
+  width: 100%;
+  padding-left: 16px 16px;
+}
+
+.lecture-text {
+  width: 65%;
+}
+
+/* -------- */
+
+/* Learning Panels */
+
+/* Main Style */
+
+.learning-panels {
+  background-color: lightgray;
+  font-family: "Ubuntu";
+  padding-bottom: 32px;
+}
+
+.learning-panels .learning-panel-header {
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.panel-container {
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.l-panel {
+  background-color: white;
+  width: 28%;
+  margin-left: 32px;
+  margin-bottom: 32px;
+}
+
+.learning-panels .text {
+  padding-left: 16px;
+  padding-bottom: 24px;
+  width: 90%;
+}
+
+.learning-panels h1 {
+
+  }
+
+.learning-panels h3 {
+  padding-top: 16px;
+  font-size: 1.5em;
+  opacity: 0.6;
+  }
+
+.learning-panels p {
+  font-size: 1.15em;
+  opacity: 0.5;
+  }
+
+.learning-panels .caps {
+  text-transform: uppercase;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.learning-panels img {
+  height: auto;
+  width: 100%;
+}
+
+.engineering {
+  margin-left: 0;
+}
+
+.data {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.business {
+  margin-bottom: 0;
+}
+
+.marketing {
+  margin-bottom: 0;
+}
+
+/* -------- */
+
+/* Thesis Exhibit */
+
+.bottom-panels {
+  display: flex;
+}
+
+.exhibit {
+  background-color: hsla(132, 0%, 95%, 1);
+  font-family: "Ubuntu";
+  width: 60%;
+}
+
+.exhibit .exhibit-header {
+
+}
+
+.exhibit h2 {
+  margin-top: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: right;
+  font-size: 2.5em;
+}
+
+/* Urban Exhibit */
+
+.exhibit-video {
+
+}
+
+.exhibit-video video {
+  width: 90%;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+}
+
+/* Video Text */
+
+.urban-exhibit {
+  width: 90%;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+
+.urban-text {
+
+}
+
+.urban-text h3 {
+  padding-bottom: 8px;
+  margin: 0;
+  font-size: 2em;
+  opacity: 0.6;
+}
+
+.urban-text p {
+  width: 95%;
+  font-size: 1.2em;
+  margin: 0;
+  font-weight: 300;
+}
+
+/* Bottom Side Panels */
+
+/* Main Style */
+
+.bottom-side-panels {
+  background-color: hsla(132, 0%, 95%, 1);
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 144px;
+}
+
+.bottom-side-panels img {
+
+}
+
+.bottom-side-panels h3 {
+
+}
+
+.bottom-side-panels p {
+
+}
+
+/* Fisma Exhibit */
+
+.fisma {
+  display: flex;
+  background-color: lightgray;
+  height: 27%;
+}
+
+.fisma-img {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
+}
+
+.fisma-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.fisma-text {
+  width: 65%;
+}
+
+/* Now and Then Exhibit */
+
+.now-then {
+  display: flex;
+  height: 27%;
+}
+
+.now-then-img {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
+}
+
+.now-then-img img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.now-then-text {
+  width: 65%;
+}
+
+/* Footer */
+
+hr {
+  margin: 0;
+}
+
+footer {
+  background-color: hsla(132, 0%, 95%, 1);
+  width: 100%;
+  font-family: "Ubuntu";
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .footer-content {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+}
+
+footer .copyright {
+  width: 100%;
+  padding-left: 24px;
+}
+
+footer .links {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.links ul {
+
+}
+
+.links li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 24px;
+}
+
+.links a {
+
+}
