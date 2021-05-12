@@ -1,0 +1,82 @@
+/* Fonts */
+
+/*=============*/
+
+/* Universal Styles */
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html body {
+  background-color: black;
+  font-family: georgia; /* temporary */
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/*=============*/
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: column;
+
+}
+
+header {
+
+}
+
+header h1 {
+  font-size: 1.2em;
+}
+
+header h3 {
+  font-style: italic;
+}
+
+/*=============*/
+
+/* Main */
+
+main {
+  margin: auto;
+  padding: auto;
+}
+
+/*==============*/
+
+/* Panel Formatting */
+/* Add unique class tags to each page
+for font colors/etc.*/
+/*=============*/
+
+.panels {
+  font-family: helvetica; /* temporary */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+
+
+.panels figure img{
+  width: 100%;
+}
+
+figcaption a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+
+}
