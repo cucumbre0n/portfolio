@@ -67,7 +67,8 @@ for font colors/etc.*/
 
 
 .panels figure img{
-  width: 100%;
+  width: 230px;
+  height: 200px;
 }
 
 figcaption a {
